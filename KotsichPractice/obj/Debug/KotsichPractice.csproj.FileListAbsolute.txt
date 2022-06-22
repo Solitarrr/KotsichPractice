@@ -1,0 +1,12 @@
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\bin\Debug\KotsichPractice.exe.config
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\bin\Debug\KotsichPractice.exe
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\bin\Debug\KotsichPractice.pdb
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\bin\Debug\MaterialSkin.dll
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\obj\Debug\KotsichPractice.csprojAssemblyReference.cache
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\obj\Debug\KotsichPractice.Properties.Resources.resources
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\obj\Debug\KotsichPractice.csproj.GenerateResource.cache
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\obj\Debug\KotsichPractice.csproj.CoreCompileInputs.cache
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\obj\Debug\KotsichPractice.csproj.CopyComplete
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\obj\Debug\KotsichPractice.exe
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\obj\Debug\KotsichPractice.pdb
+C:\Users\snill\Desktop\БСТ2001 Коцич Практика\KotsichPractice\obj\Debug\KotsichPractice.Form1.resources
