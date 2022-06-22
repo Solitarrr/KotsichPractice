@@ -71,6 +71,7 @@
             this.tabPage1.Size = new System.Drawing.Size(927, 479);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Home";
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // tabPage2
             // 
@@ -79,7 +80,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(786, 340);
+            this.tabPage2.Size = new System.Drawing.Size(927, 479);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Start";
             // 
@@ -117,7 +118,7 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(62, 22);
+            this.materialLabel1.Location = new System.Drawing.Point(122, 40);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(588, 19);
@@ -128,13 +129,14 @@
             // 
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel2.Location = new System.Drawing.Point(520, 372);
+            this.materialLabel2.Location = new System.Drawing.Point(549, 338);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(318, 111);
             this.materialLabel2.TabIndex = 1;
             this.materialLabel2.Text = "Выполнил: студент группы БСТ2001\r\nКоцич Л.\r\nВариант №9\r\nПроверила: спец. учебн. л" +
     "аб. каф. СИТиС.\r\nТришина С.В.\r\n";
+            this.materialLabel2.Click += new System.EventHandler(this.materialLabel2_Click);
             // 
             // Form1
             // 
