@@ -42,22 +42,22 @@
             this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton5 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPage4.SuspendLayout();
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -155,11 +155,9 @@
             this.materialLabel4.Location = new System.Drawing.Point(155, 417);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(521, 59);
+            this.materialLabel4.Size = new System.Drawing.Size(521, 104);
             this.materialLabel4.TabIndex = 4;
-            this.materialLabel4.Text = "В случае если не происходит запуск определенных программ, следует нажать на кнопк" +
-    "у \"Открыть самостоятельно\" и выбрать необходимый файл\r\nЗапуск Processing-a проис" +
-    "ходит в соответсвии с COM-портом. Именн";
+            this.materialLabel4.Text = resources.GetString("materialLabel4.Text");
             this.materialLabel4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.materialLabel4.Click += new System.EventHandler(this.materialLabel4_Click);
             // 
@@ -259,16 +257,6 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Pictures";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::KotsichPractice.Properties.Resources.img1;
-            this.pictureBox2.Location = new System.Drawing.Point(170, 17);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(521, 420);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
             // materialButton6
             // 
             this.materialButton6.AutoSize = false;
@@ -290,16 +278,6 @@
             this.materialButton6.UseVisualStyleBackColor = true;
             this.materialButton6.Click += new System.EventHandler(this.materialButton6_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::KotsichPractice.Properties.Resources.img2;
-            this.pictureBox1.Location = new System.Drawing.Point(170, 17);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(521, 420);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.White;
@@ -319,7 +297,7 @@
             this.materialLabel5.Depth = 0;
             this.materialLabel5.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel5.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
-            this.materialLabel5.Location = new System.Drawing.Point(126, 361);
+            this.materialLabel5.Location = new System.Drawing.Point(116, 361);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             this.materialLabel5.Size = new System.Drawing.Size(633, 74);
@@ -335,7 +313,7 @@
             this.materialButton8.Depth = 0;
             this.materialButton8.HighEmphasis = true;
             this.materialButton8.Icon = null;
-            this.materialButton8.Location = new System.Drawing.Point(324, 265);
+            this.materialButton8.Location = new System.Drawing.Point(314, 265);
             this.materialButton8.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton8.Name = "materialButton8";
@@ -356,7 +334,7 @@
             this.materialButton5.Depth = 0;
             this.materialButton5.HighEmphasis = true;
             this.materialButton5.Icon = null;
-            this.materialButton5.Location = new System.Drawing.Point(324, 219);
+            this.materialButton5.Location = new System.Drawing.Point(314, 219);
             this.materialButton5.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton5.Name = "materialButton5";
@@ -377,7 +355,7 @@
             this.materialButton1.Depth = 0;
             this.materialButton1.HighEmphasis = true;
             this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(324, 171);
+            this.materialButton1.Location = new System.Drawing.Point(314, 171);
             this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
@@ -399,6 +377,26 @@
             this.imageList1.Images.SetKeyName(2, "pcpulses.png");
             this.imageList1.Images.SetKeyName(3, "pics.png");
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::KotsichPractice.Properties.Resources.img1;
+            this.pictureBox2.Location = new System.Drawing.Point(170, 17);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(521, 420);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::KotsichPractice.Properties.Resources.img2;
+            this.pictureBox1.Location = new System.Drawing.Point(170, 17);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(521, 420);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -413,15 +411,16 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Practice";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

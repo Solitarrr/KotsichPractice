@@ -61,16 +61,6 @@ namespace KotsichPractice.Properties {
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
-        /// </summary>
-        internal static byte[] ArduinoCodePractice {
-            get {
-                object obj = ResourceManager.GetObject("ArduinoCodePractice", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap img1 {
@@ -107,26 +97,6 @@ namespace KotsichPractice.Properties {
             get {
                 object obj = ResourceManager.GetObject("pic2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
-        /// </summary>
-        internal static byte[] PLX_DAQ {
-            get {
-                object obj = ResourceManager.GetObject("PLX_DAQ", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Byte[].
-        /// </summary>
-        internal static byte[] ProcessingCodePractice {
-            get {
-                object obj = ResourceManager.GetObject("ProcessingCodePractice", resourceCulture);
-                return ((byte[])(obj));
             }
         }
         

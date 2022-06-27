@@ -16,9 +16,9 @@ namespace KotsichPractice
     public partial class Form1 : MaterialForm
     {
         readonly MaterialSkin.MaterialSkinManager materialSkinManager;
-        public static String file_exe = Environment.GetFolderPath(Environment.SpecialFolder.InternetCache) + "\\ArduinoCodePractice.ino";
-        public static String file2_exe = Environment.GetFolderPath(Environment.SpecialFolder.InternetCache) + "\\ProcessingCodePractice.pde";
-        public static String file3_exe = Environment.GetFolderPath(Environment.SpecialFolder.InternetCache) + "\\PLX_DAQ.xls";
+        
+        
+        
         public Form1()
         {
             InitializeComponent();
@@ -53,18 +53,12 @@ namespace KotsichPractice
 
         private void materialButton2_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(file_exe, FileMode.Create);
-            fs.Write(Properties.Resources.ArduinoCodePractice, 0, Properties.Resources.ArduinoCodePractice.Length);
-            fs.Close();
-            System.Diagnostics.Process.Start(file_exe);
+            Process.Start(new ProcessStartInfo { FileName = @"..\..\..\ArduinoCodePractice\ArduinoCodePractice.ino", UseShellExecute = true });
         }
 
         private void materialButton3_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(file2_exe, FileMode.Create);
-            fs.Write(Properties.Resources.ProcessingCodePractice, 0, Properties.Resources.ProcessingCodePractice.Length);
-            fs.Close();
-            System.Diagnostics.Process.Start(file2_exe);
+            Process.Start(new ProcessStartInfo { FileName = @"..\..\..\ProcessingCodePractice\ProcessingCodePractice.pde", UseShellExecute = true });
         }
 
         private void materialButton4_Click(object sender, EventArgs e)
@@ -98,20 +92,26 @@ namespace KotsichPractice
 
         private void materialButton7_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(file3_exe, FileMode.Create);
-            fs.Write(Properties.Resources.PLX_DAQ, 0, Properties.Resources.PLX_DAQ.Length);
-            fs.Close();
-            System.Diagnostics.Process.Start(file3_exe);
+            Process.Start(new ProcessStartInfo { FileName = @"..\..\..\ProcessingCodePractice\positions.txt", UseShellExecute = true });
         }
 
         private void materialButton8_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.arduino.cc/en/software");
             System.Diagnostics.Process.Start("https://processing.org/download");
-            System.Diagnostics.Process.Start("https://www.parallax.com/download/?search=PLX#");
         }
 
         private void materialLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialButton10_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

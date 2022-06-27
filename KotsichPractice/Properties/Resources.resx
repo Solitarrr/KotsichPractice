@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ArduinoCodePractice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ArduinoCodePractice.ino;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -132,12 +129,6 @@
   </data>
   <data name="pic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pic2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PLX_DAQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PLX-DAQ.xls;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ProcessingCodePractice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ProcessingCodePractice.pde;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="projectico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\projectico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
