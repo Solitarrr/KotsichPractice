@@ -83,7 +83,6 @@
     </Compile>
     <None Include="Resources\ArduinoCodePractice.ino" />
     <None Include="Resources\PLX-DAQ.xls" />
-    <None Include="Resources\ProcessingCodePractice.pde" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -95,13 +94,14 @@
     <None Include="Resources\pic2.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\ProcessingCodePractice.pde" />
+    <None Include="Resources\projectico.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\img1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\img2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\projectico.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -110,5 +110,10 @@ namespace KotsichPractice
             System.Diagnostics.Process.Start("https://processing.org/download");
             System.Diagnostics.Process.Start("https://www.parallax.com/download/?search=PLX#");
         }
+
+        private void materialLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
