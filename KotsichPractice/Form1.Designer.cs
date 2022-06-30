@@ -49,6 +49,7 @@
             this.materialButton5 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.materialTabControl1.SuspendLayout();
@@ -66,6 +67,7 @@
             this.materialTabControl1.Controls.Add(this.tabPage2);
             this.materialTabControl1.Controls.Add(this.tabPage3);
             this.materialTabControl1.Controls.Add(this.tabPage4);
+            this.materialTabControl1.Controls.Add(this.tabPage5);
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialTabControl1.ImageList = this.imageList1;
@@ -376,6 +378,17 @@
             this.imageList1.Images.SetKeyName(1, "homes.png");
             this.imageList1.Images.SetKeyName(2, "pcpulses.png");
             this.imageList1.Images.SetKeyName(3, "pics.png");
+            this.imageList1.Images.SetKeyName(4, "info.png");
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BackColor = System.Drawing.Color.White;
+            this.tabPage5.ImageKey = "info.png";
+            this.tabPage5.Location = new System.Drawing.Point(4, 39);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(927, 479);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Information";
             // 
             // pictureBox2
             // 
@@ -448,6 +461,7 @@
         private MaterialSkin.Controls.MaterialButton materialButton8;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
+        private System.Windows.Forms.TabPage tabPage5;
     }
 }
 
