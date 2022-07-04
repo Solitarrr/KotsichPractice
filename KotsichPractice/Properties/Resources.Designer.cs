@@ -63,6 +63,26 @@ namespace KotsichPractice.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap datch {
+            get {
+                object obj = ResourceManager.GetObject("datch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ER {
+            get {
+                object obj = ResourceManager.GetObject("ER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img1 {
             get {
                 object obj = ResourceManager.GetObject("img1", resourceCulture);
@@ -93,6 +113,16 @@ namespace KotsichPractice.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap obl {
+            get {
+                object obj = ResourceManager.GetObject("obl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pic1 {
             get {
                 object obj = ResourceManager.GetObject("pic1", resourceCulture);
@@ -116,6 +146,16 @@ namespace KotsichPractice.Properties {
         internal static System.Drawing.Bitmap projectico {
             get {
                 object obj = ResourceManager.GetObject("projectico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap treug {
+            get {
+                object obj = ResourceManager.GetObject("treug", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
